@@ -1,4 +1,4 @@
-// var words = process.argv.slice(2).join("");
+var words = process.argv.slice(2).join(" ");
 
 function charPosition(input){
   var output ={};
@@ -29,5 +29,5 @@ function charPosition(input){
   }
   return output;
 }
-// console.log (charPosition(words));
-console.log (charPosition("lighthouse in the house"));
+console.log (charPosition(words));
+// console.log (charPosition("lighthouse in the house"));
